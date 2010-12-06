@@ -1,7 +1,7 @@
 Summary:	A stop motion software for animation movie realization
 Name:		luciole
 Version:	0.8.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPLv3
 Group:		Video
 Source0:	http://launchpad.net/luciole/0.8/0.8.2/+download/%{name}_%{version}.tar.gz
