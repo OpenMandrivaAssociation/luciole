@@ -1,0 +1,11 @@
+--- templates/lucioleConf.xml	2010-02-08 05:10:50.000000000 +0100
++++ templates/lucioleConf.xml~	2010-02-10 22:50:30.000000000 +0100
+@@ -8,7 +8,7 @@
+ 	<LastProject></LastProject>
+ 	</LastProjects>
+ 	<options>
+-		<option name="Theme" value="Tropical.rc" />
++		<option name="Theme" value="Default.rc" />
+ 		<option name="CaptureTrashDisplay" value="no"/>
+ 	</options>
+ </luciole>
