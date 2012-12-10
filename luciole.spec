@@ -73,3 +73,15 @@ rm -rf %{buildroot}
 %{_datadir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/pixmaps/*
+
+
+%changelog
+* Mon Dec 06 2010 Oden Eriksson <oeriksson@mandriva.com> 0.8.2-2mdv2011.0
++ Revision: 612782
+- the mass rebuild of 2010.1 packages
+
+* Thu Feb 11 2010 Ahmad Samir <ahmadsamir@mandriva.org> 0.8.2-1mdv2010.1
++ Revision: 504027
+- import luciole
+
+
