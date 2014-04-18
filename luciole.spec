@@ -15,7 +15,7 @@ BuildRequires:	desktop-file-utils
 Requires:	pygtk2.0
 Requires:	python-imaging
 Requires:	python-dbus
-Requires:	python-goocanvas
+Requires:	python-pygoocanvas
 Requires:	gstreamer0.10-python
 Requires:	pygtk2.0-libglade
 Requires:	imagemagick
