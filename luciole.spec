@@ -1,12 +1,13 @@
 Summary:	A stop motion software for animation movie realization
 Name:		luciole
 Version:	0.9.3
-Release:	2
+Release:	3
 License:	GPLv3
 Group:		Video
 Source0:	http://launchpad.net/luciole/0.9/0.9.3/+download/%{name}-%{version}.tar.gz
 Source100:	luciole.rpmlintrc
 Patch0:		luciole-0.8.2-use-system-default-theme.patch
+Patch1:		luciole-0.9.3-pillow.patch
 Url:		http://festival.inattendu.org/Luciole
 BuildArch:	noarch
 BuildRequires:	python-devel

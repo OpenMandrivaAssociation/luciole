@@ -1,0 +1,12 @@
+diff -Naur luciole-0.9.3.orig/luciole/media/image.py luciole-0.9.3/luciole/media/image.py
+--- luciole-0.9.3.orig/luciole/media/image.py	2015-03-10 17:07:51.000000000 +0400
++++ luciole-0.9.3/luciole/media/image.py	2015-03-10 17:08:22.000000000 +0400
+@@ -38,7 +38,7 @@
+ import re
+ 
+ # related third party imports
+-import Image as PIL
++import from PIL import Image
+ import gtk
+ import pango
+ 
