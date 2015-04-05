@@ -1,7 +1,7 @@
 Summary:	A stop motion software for animation movie realization
 Name:		luciole
 Version:	0.9.3
-Release:	3
+Release:	4
 License:	GPLv3
 Group:		Video
 Source0:	http://launchpad.net/luciole/0.9/0.9.3/+download/%{name}-%{version}.tar.gz
@@ -34,6 +34,7 @@ live capture of images from external devices as webcam or DV cam.
 %prep
 %setup -q 
 %patch0 -p0 -b .default-theme
+%patch1 -p1 -b .pillow
 
 %install
 python setup.py install --root %{buildroot}
